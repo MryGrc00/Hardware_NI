@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Services</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Link to the Bootstrap CSS file -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <style>
+      body {
+       background-color: #ffffff;
+      }
+      .box, a {
+          text-decoration: none;
+          color: rgb(248, 248, 248);
+      }
+      .bg-light.bg-gradient {
+          display: flex;
+          flex-direction: row;
+          gap: 350px;
+          justify-content: center;
+          align-items: center;
+          font-size: 25px;
+          width: 100%;    
+          height: 150px;
+          left: 0px;
+          top: 108px;
+          background: #ffffff;
+      }
+      .box {
+          display: flex;
+          gap: 280px;
+          flex-direction: row;
+          width: 100%;
+          height: 120px;
+          justify-content: center;
+          align-items: center;
+          padding: 20px;
+          background-color: #cecaca;
+          border-radius: 5px;
+          box-shadow: 0 0 10px rgba(145, 139, 139, 0.322);
+          transition: transform 0.2s ease-in-out;
+      }
+      .box:hover {
+          transform: scale(1.05);
+      }
+      .Service, .Address, .Option {
+          text-decoration: none;
+          font-size: 18px;
+          color: #050505;
+          padding: 5px 10px;
+          transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+      }
+      .Service:hover, .Address:hover, .Option:hover {
+          background-color: #73868b;
+          color: #fffcfc;
+      }
+      img {
+          width: 120px;
+          height: 120px;
+          float: left;
+          margin-right: 15px;
+      }
+      .peso, .total, .tidirt {
+          float: right;
+          margin-right: 15px;
+      }
+      .card {
+          border-radius: 5px;
+          box-shadow: 0 0 10px rgba(187, 177, 177, 0.322);
+          transition: transform 0.2s ease-in-out;
+      }
+      .card:hover {
+          transform: scale(1.05);
+      }
+      .Mybtn1{
+      color: #FFFFFF;
+      width: 188px;
+      height: 53px;
+      background: #000000;       
+      }
+      .Mybtn2{
+      color: #FFFFFF;
+      width: 188px;
+      height: 53px;
+      background: #000000; 
+      }
+      .Mybtn3{
+          color: #FFFFFF;
+          width: 188px;
+          height: 53px;
+          background: #000000;       
+      }
+      .Mybtn4{
+          color: #FFFFFF;
+          width: 188px;
+          height: 53px;
+          background: #000000; 
+      }
+      .Mybtn1:hover, .Mybtn2:hover{
+          background-color: #73868b;
+      }
+      .ServiceCartPeso1{
+      position: relative;
+      left: 135px;
+      bottom: 47px;
+      color: #000000
+      }
+      .hah{
+          position: relative;
+          bottom: 65px;
+          left: 390px;
+      }
+      .SCoupon{
+          position: relative;
+          left: 200px;
+          bottom: 15px;
+      }
+      .inputCoupon{
+          position: relative;
+          top: 15px;
+          color: #000000;
+      }
+      .ServiceSubtotal{
+          position: relative;
+          bottom: 29px;
+          left: 332px;
+      }
+      .ServiceTransport{
+          position: relative;
+          left: 332px;
+          bottom: 35px;
+      }
+      .ServiceTotal{
+          position: relative;
+          left: 332px;
+          bottom: 37px;
+      }
+      </style>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="home.html">Hardware N.I.</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                            <a href="home.html" class="nav-link active" style="padding-left: 50px;padding-right: 50px;">
+                                <i class="fa-sharp fa-solid fa-house fa-sm" style="color: #000000;">&nbsp&nbsp</i>Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-left: 50px;padding-right: 50px;">
+                                    <i class="fa-sharp fa-solid fa-cart-shopping" style="color: #000000;">&nbsp&nbsp</i>Cart
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a href="product_cart.html" class="dropdown-item">Products</a></li>
+                                    <li><a href="service_cart.html"class="dropdown-item">Services</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-left: 50px;padding-right: 50px;">
+                                    Categories
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a href="product.html" class="dropdown-item">Products</a></li>
+                                    <li><a href="service.html"class="dropdown-item">Services</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="float: right;">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit"><i class="fa-sharp fa-solid fa-magnifying-glass fa-sm" style="color: #000000;"></i></button>
+                            </form> 
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-left: 50px;padding-right: 50px;">
+                                    <i class="fa-sharp fa-solid fa-ellipsis-vertical" style="color: #000000;"></i>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="dashboard_order_product.html">Dashboard</a></li>
+                                    <li><a class="dropdown-item" href="seller_product.html">Shop</a></li>
+                                    <li><a class="dropdown-item" href="index.html">Logout</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="bg-light">
+        <div class="box mt-0">
+            <a href="cart.html" class="Service">1. Cart</a> 
+            <a href="details.html" class="Address">2. Details</a>
+            <a href="payment_option.html" class="Option">3. Payment Option</a>
+        </div> 
+        </div>
+        <div class="container">
+        <div class="row">
+            <div class="col-sm-6 mt-5">
+            <h1>Cart</h1>
+            <div class="card">
+                <div class="card-body">
+                <section style="border-bottom: 1px solid #000000; padding-top: 4px;"></section>
+                <img src="https://raw.githubusercontent.com/aizpop/AvengerSquad_HardwareNi/main/images/Painter.png" alt="Paint" class="rounded mt-lg-4">
+                <h5 class="Painter mt-lg-5">Painter</h5>
+                <p class="card-text">Choose how many hours you need <br> the Painters Services</p>
+                <div class="hah">
+                    <strong><label for="quantity" class="gapping">Hours:</label></strong>
+                    <input type="number" id="quantity" name="quantity" min="1" max="100" value="1">
+                </div>
+                <span class="ServiceCartPeso1 mt-2">&#8369;600.00</span>
+                <br><br>
+                <section style="border-bottom: 1.1px solid #000000; padding-top: 4px;"></section>
+            </div>
+            </div>
+        </div>
+        <div class="col-sm-5 mt-5">
+            <h1>Summary</h1>
+            <div class="card">
+            <div class="card-body">
+                <section style="border-bottom: 1px solid #000000; padding-top: 4px;"></section>
+                <h5 class="card-title "></h5>
+                <div class="form-group col-md-6">
+                <label class="inputCoupon" for="inputCoupon">ENTER COUPON CODE</label>
+                <input type="text" class="SCoupon form-control" id="inputZip">
+                </div>
+                <section style="border-bottom: 1.1px solid #000000; padding-top: 4px;"></section><br>
+                <h6>SUBTOTAL</h6>
+                <span class="ServiceSubtotal"><strong>&#8369;3,000.00</strong></span><br>
+                <h6>TRANSPORT FEE</h6>
+                <span class="ServiceTransport"><strong>FREE</strong></span>
+                <section style="border-bottom: 1.1px solid #000000; padding-top: 4px;"></section><br>
+                <h5>TOTAL</h5><span class="ServiceTotal mt-2"><b>&#8369;3,000.00</b></span>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="MybtnAll justify-content-lg-between">
+        <button type="button" class="Mybtn1 btn-lg sl-lg-4" onclick="cancel()">Cancel</button>
+        <button type="button" class="Mybtn2 btn-lg m-lg-4" onclick="next()"><a href="address.html" style="text-decoration: none; color: #FFFFFF">Next</a></button>
+        </div>
+        <script>
+            const cancel = () => {
+                window.location.href = "";
+        };
+        
+        const next = () => {
+            window.location.href = "";
+        };
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        </div>  
+    </body>     
+</html> 

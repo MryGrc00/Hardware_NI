@@ -1,0 +1,47 @@
+.ratings-wrapper{
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    color: #BEBEBE;
+}
+.container{
+    background-color: #e6e6e6  ;
+}
+.ratings{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.ratings span{
+    cursor: pointer;
+    transition: color .2s, transform .2s;
+    font-size: 50px;
+}
+.ratings span:hover{
+    color: orange;
+    transform: scale(1.3);  
+}
+.ratings span:hover  ~ span{
+    color:orange;
+
+}
+.ratings span[data-clicked]{
+    color:orange;
+}
+.ratings span[data-clicked] ~ span{
+    color:orange;
+}
+.input-box{
+width: 360px;
+box-sizing: border-box;
+
+}
+.input{
+height: 30px;
+width: 100%;
+background: transparent;
+border: none;
+border-bottom: 1px solid rgba(0,0,0,0.2);
+outline: none;
+margin-bottom: 25px;
+color: #40414a;
+}

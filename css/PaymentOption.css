@@ -1,0 +1,76 @@
+.WithinTheDayAddress1:hover, .WithinTheDayAddress2:hover{
+    background-color: #747474;
+}
+.WithinTheDayAddress2{
+    position: relative;
+    bottom: 77px;
+    left: 310px;
+}
+.WithinTheDayAddress2 img{
+    position: relative;
+    left: 20px;
+}
+.WithinTheDayAddress1{
+    position: relative;
+    width: 260px;
+}
+.WithinTheDayAddress1 img{
+    position: relative;
+    left: 20px;
+}
+label[name="NextDay"]{
+    position: relative;
+    left: 10px;
+}
+label[name="WtDay"]{
+    position: relative;
+    left: 10px;
+}
+.MybtnAll{
+    position: relative;
+    top: -77px;
+    left: 55px;
+}
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    left: 300px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  .show {display: block;}
+  .dropdown img{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    left: 50px;
+    bottom: 50px;
+  }
+  .dropdown{
+    height: 20px;
+  }

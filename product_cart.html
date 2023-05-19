@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>AvengerSquad_HardwareNI</title>
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+        <!-- Custom styles for this template -->
+        <link rel="stylesheet" href="css/carousel.css">
+        <link rel="stylesheet" href="css/site.css">
+
+    </head>
+    <style>
+        .topnav-left {
+            float: left;
+        }
+        .topnav-right {
+            float: right;
+        }
+        .gradient-custom {
+            /* fallback for old browsers */
+            background: #ffffff;
+
+            /* Chrome 10-25, Safari 5.1-6
+            background: -webkit-linear-gradient(to right, rgb(255, 255, 255), rgba(255, 136, 0));
+
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            /* background: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 136, 0)) */ 
+        }
+    </style>
+    <body style="padding-top: 0px;">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="home.html">Hardware N.I.</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                            <a href="home.html" class="nav-link active" style="padding-left: 50px;padding-right: 50px;">
+                                <i class="fa-sharp fa-solid fa-house fa-sm" style="color: #000000;">&nbsp&nbsp</i>Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-left: 50px;padding-right: 50px;">
+                                    <i class="fa-sharp fa-solid fa-cart-shopping" style="color: #000000;">&nbsp&nbsp</i>Cart
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a href="product_cart.html" class="dropdown-item">Products</a></li>
+                                    <li><a href="service_cart.html"class="dropdown-item">Services</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-left: 50px;padding-right: 50px;">
+                                    Categories
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a href="product.html" class="dropdown-item">Products</a></li>
+                                    <li><a href="service.html"class="dropdown-item">Services</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="float: right;">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit"><i class="fa-sharp fa-solid fa-magnifying-glass fa-sm" style="color: #000000;"></i></button>
+                            </form> 
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-left: 50px;padding-right: 50px;">
+                                    <i class="fa-sharp fa-solid fa-ellipsis-vertical" style="color: #000000;"></i>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="dashboard_order_product.html">Dashboard</a></li>
+                                    <li><a class="dropdown-item" href="seller_product.html">Shop</a></li>
+                                    <li><a class="dropdown-item" href="index.html">Logout</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="h-100 gradient-custom">
+            <div class="container py-5">
+                <div class="row d-flex justify-content-center my-4">
+                    <div class="col-md-8">
+                    <div class="card mb-4">
+                        <div class="card-header py-3">
+                        <h5 class="mb-0">Product Cart</h5>
+                        </div>
+                        <div class="card-body">
+                        <!-- Single item -->
+                        <div class="row">
+                            <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                            <!-- Image -->
+                            <div class="bg-image hover-overlay hover-zoom ripple rounded" data-mdb-ripple-color="light">
+                                <img src="https://ae01.alicdn.com/kf/HTB1CneYKVXXXXczXpXXq6xXFXXXz/Heavy-saving-40-Diagonal-pliers-diagonal-pliers-diagonal-cutting-pliers-Household.jpg"
+                                class="w-100" alt="Diagonal Pliers" />
+                                <a href="#!">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                                </a>
+                            </div>
+                            <!-- Image -->
+                            </div>
+            
+                            <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
+                            <!-- Data -->
+                            <p><strong>Diagonal Pliers</strong></p>
+                            <p>Color: Green</p>
+                            <p>Size: None</p>
+                            <p>Price:   <strong>₱ 17.99</strong></p>
+                            <button type="button" class="btn btn-primary btn-sm me-1 mb-2" data-mdb-toggle="tooltip"
+                                title="Remove item">
+                                <i class="fa-sharp fa-solid fa-trash" style="color: #ffffff;"></i>
+                            </button>
+                            <!-- Data -->
+                            </div>
+            
+                            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                            <!-- Quantity -->
+                            <div class="d-flex mb-4" style="max-width: 300px">
+                                <button class="btn btn-primary px-3 me-2"
+                                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+            
+                                <div class="form-outline">
+                                    <input id="form1" min="0" name="quantity" value="1" type="number" class="form-control text-start text-md-center" />
+                                </div>
+            
+                                <button class="btn btn-primary px-3 ms-2"
+                                onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                            <!-- Quantity -->
+            
+                            
+                            </div>
+                        </div>
+                        <!-- Single item -->
+            
+                        <hr class="my-4" />
+            
+                        <!-- Single item -->
+                        <div class="row">
+                            <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                            <!-- Image -->
+                            <div class="bg-image hover-overlay hover-zoom ripple rounded" data-mdb-ripple-color="light">
+                                <img src="https://cf.shopee.ph/file/d398f8849f21e519c2741e2a362c5ad4"
+                                class="w-100" />
+                                <a href="#!">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                                </a>
+                            </div>
+                            <!-- Image -->
+                            </div>
+            
+                            <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
+                            <!-- Data -->
+                            <p><strong>Bicycle Set kit</strong></p>
+                            <p>Color: Black</p>
+                            <p>Size: None</p>
+                            <p>Price: <strong>₱ 17.99</strong></p>
+                            <button type="button" class="btn btn-primary btn-sm me-1 mb-2" data-mdb-toggle="tooltip"
+                                title="Remove item">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                            <!-- Data -->
+                            </div>
+            
+                            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                            <!-- Quantity -->
+                            <div class="d-flex mb-4" style="max-width: 300px">
+                                <button class="btn btn-primary px-3 me-2"
+                                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+            
+                                <div class="form-outline">
+                                    <input id="form1" min="0" name="quantity" value="1" type="number" class="form-control text-start text-md-center" />
+                                    
+                                </div>
+            
+                                <button class="btn btn-primary px-3 ms-2"
+                                    onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                            <!-- Quantity -->
+        
+                            </div>
+                        </div>
+                        <!-- Single item -->
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <div class="card-body">
+                        <p><strong>Expected shipping delivery</strong></p>
+                        <p class="mb-0">12.10.2020 - 14.10.2020</p>
+                        </div>
+                    </div>
+                    <div class="card mb-4 mb-lg-0">
+                        <div class="card-body">
+                        <p><strong>We accept</strong></p>
+                        <img class="me-2" width="150px" height="80px"
+                            src="https://sugbo.ph/wp-content/uploads/2020/05/globe-gcash.png"
+                            alt="Gcash" />
+                        <img class="me-2" width="150px" height="60px"
+                            src="https://raw.githubusercontent.com/aizpop/AvengerSquad_HardwareNi/main/images/PCash.PNG"
+                            alt="American Express" />
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <div class="card-header py-3">
+                                <h5 class="mb-0">Summary</h5>
+                                </div>
+                                <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li
+                                    class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">
+                                    Products
+                                    <span>$53.98</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                    Shipping
+                                    <span>Gratis</span>
+                                    </li>
+                                    <li
+                                    class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 mb-3">
+                                    <div>
+                                        <strong>Total amount</strong>
+                                        <strong>
+                                            <p class="mb-0">(including VAT)</p>
+                                        </strong>
+                                    </div>
+                                    <span><strong>$53.98</strong></span>
+                                    </li>
+                                </ul>
+                    
+                                <button type="button" class="btn btn-primary btn-lg btn-block">
+                                    <a href="cart.html" style="text-decoration: none; color: #fff">Go to checkout</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+    <script src="https://kit.fontawesome.com/b931b08b2b.js" crossorigin="anonymous"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/site.js" asp-append-version="true"></script>
+</html>
