@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Services</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Link to the Bootstrap CSS file -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link href="bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/Service_Cart.css">
+      <style>
+
+      </style>
+    </head>
+  <body>
+    <div class="bg-light">
+      <div class="box mt-5">
+        <a href="" class="Service">1. Service Cart</a> 
+        <a href="../Web_Services/WebService_Address.html" class="Address">2. Address</a>
+        <a href="../Web_Services/PaymentOption.html" class="Option">3. Payment Option</a>
+      </div> 
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 mt-5">
+          <h1>Service Cart</h1>
+          <div class="card">
+            <div class="card-body">
+              <section style="border-bottom: 1px solid #000000; padding-top: 4px;"></section>
+              <img src="../images/Painter.png" src="/images/Painter.png" alt="Paint" class="rounded mt-lg-4">
+              <h5 class="Painter mt-lg-5">Painter</h5>
+              <p class="card-text">choose how many days you need <br> the Painters Services</p>
+              <div class="hah">
+                <strong><label for="quantity" class="gapping">Days:</label></strong>
+                <input type="number" id="quantity" name="quantity" min="1" max="100" value="1">
+              </div>
+            <span class="ServiceCartPeso1 mt-2">&#8369;600.00</span>
+            <br><br>
+            <section style="border-bottom: 1.1px solid #000000; padding-top: 4px;"></section>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-5 mt-5">
+        <h1>Summary</h1>
+        <div class="card">
+          <div class="card-body">
+            <section style="border-bottom: 1px solid #000000; padding-top: 4px;"></section>
+            <h5 class="card-title "></h5>
+            <div class="form-group col-md-6">
+              <label class="inputCoupon" for="inputCoupon">ENTER COUPON CODE</label>
+              <input type="text" class="SCoupon form-control" id="inputZip">
+            </div>
+            <section style="border-bottom: 1.1px solid #000000; padding-top: 4px;"></section><br>
+            <h6>SUBTOTAL</h6>
+            <span class="ServiceSubtotal"><strong>&#8369;3,000.00</strong></span><br>
+            <h6>TRANSPORT FEE</h6>
+            <span class="ServiceTransport"><strong>FREE</strong></span>
+            <section style="border-bottom: 1.1px solid #000000; padding-top: 4px;"></section><br>
+            <h5>TOTAL</h5><span class="ServiceTotal mt-2"><b>&#8369;3,000.00</b></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="MybtnAll justify-content-lg-between">
+      <button type="button" class="Mybtn1 btn-lg sl-lg-4" onclick="cancel()">Cancel</button>
+      <button type="button" class="Mybtn2 btn-lg m-lg-4" onclick="next()"><a href="../Web_Services/WebService_Address.html">Next</a></button>
+    </div>
+    <script>
+        const cancel = () => {
+            window.location.href = "";
+    };
+    
+    const next = () => {
+        window.location.href = "";
+    };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+    </div>  
+</body>     
+</html>

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/service_review.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">  
+    <title>Bootstrap demo</title>
+    
+  </head>
+
+  <body>
+    <div class="wrapper">
+        <div class="container main mx-auto  mt-5 pt-3 border" >
+            <h3>Give Feedback</h3>
+            <div class="ratings-wrapper">
+                <div data-product="39" class="ratings">
+                    <span data-rating="5">&#9733;</span>
+                    <span data-rating="4">&#9733;</span>
+                    <span data-rating="3">&#9733;</span>
+                    <span data-rating="2">&#9733;</span>
+                    <span data-rating="1">&#9733;</span>
+                </div>
+                <p>Click to rate </p>
+            </div>
+            <div class="form-group">
+                <label for="rtitle"><h6>Review Title</h6></label>
+                <input type="text" class="input form-control" id="rtitle" placeholder="Example: Easy to Use">
+              </div>
+              <div class="form-group">
+                <h6>Would you recommend the service to a friend?</h6>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="yes" value="option1">
+                <label class="form-check-label" for="yes">Yes</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="no" value="option2">
+                <label class="form-check-label" for="no">No</label>
+              </div>
+            </div>
+            <div class="form-group">
+                <label for="Textarea"><h6>Service Review</h6></label>
+                <textarea class="form-control" id="Textarea" rows="3"></textarea>
+            </div>
+            <div class="btn pb-3">
+                <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

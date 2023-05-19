@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>AvengerSquad_HardwareNI</title>
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/AvengerSquad_HardwareNI.styles.css" asp-append-version="true" />
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+        <!-- Custom styles for this template -->
+        <link rel="stylesheet" href="css/carousel.css">
+
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="css/site.css">
+
+    </head>
+    <style>
+        rect {
+            float: center;
+        }
+        .bc {
+            background-color: #F09E00;
+            border: 0px;
+        }
+    </style>
+    <body style="padding-top: 0px;">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="home.html">Hardware N.I.</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                            <a href="home.html" class="nav-link active" style="padding-left: 50px;padding-right: 50px;">
+                                <i class="fa-sharp fa-solid fa-house fa-sm" style="color: #000000;">&nbsp&nbsp</i>Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-left: 50px;padding-right: 50px;">
+                                    <i class="fa-sharp fa-solid fa-cart-shopping" style="color: #000000;">&nbsp&nbsp</i>Cart
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a href="product_cart.html" class="dropdown-item">Products</a></li>
+                                    <li><a href="service_cart.html"class="dropdown-item">Services</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-left: 50px;padding-right: 50px;">
+                                    Categories
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a href="product.html" class="dropdown-item">Products</a></li>
+                                    <li><a href="service.html"class="dropdown-item">Services</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="float: right;">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit"><i class="fa-sharp fa-solid fa-magnifying-glass fa-sm" style="color: #000000;"></i></button>
+                            </form> 
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-left: 50px;padding-right: 50px;">
+                                    <i class="fa-sharp fa-solid fa-ellipsis-vertical" style="color: #000000;"></i>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="dashboard_order_product.html">Dashboard</a></li>
+                                    <li><a class="dropdown-item" href="seller_product.html">Shop</a></li>
+                                    <li><a class="dropdown-item" href="index.html">Logout</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container-fluid" style="margin: 0px; padding: 0px;">
+            <main>
+                <div class="album py-5 bg-light text-left">
+                    <div class="container ">
+                        <h4 class="me-3 mb-0 pb-1">SERVICES&nbsp&nbsp&nbsp</h4>                       
+                        <hr class="" style="width:100%;">
+                        <div class="row">
+                            <!-- start of column -->
+                            <div class="col-sm-2">  
+                                <div class="card mb-4 box-shadow">
+                                    <a href="service_detail.html" style="text-decoration: none;">
+                                        <img src="https://1stclassplumber.com/wp-content/uploads/2015/10/shutterstock_105607973.jpg" height="150" width="160" class="bd-placeholder-img square m-3 mb-0">
+                                    </a>
+                                    <div class="card-body">
+                                        <p class="mb-0">
+                                            <i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                                        </p>
+                                        <p class="card-text mb-0">Plumber</p>
+                                        <small class="text-muted">boss amo</small><br>
+                                        <small class="text-muted">₱ 150.00</small><br>
+                                        <div class="d-flex" style="float: right;">
+                                            <div class="btn-group mb-0 ms-0" >
+                                                <a href="service_cart.html"><i class="fa-sharp fa-solid fa-cart-shopping ms-2" style="color: #000000;"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="card mb-4 box-shadow">
+                                    <a href="service_detail.html" style="text-decoration: none;">
+                                        <img src="https://www.theashevillepainter.com/uploads/1/1/1/2/111226349/published/asheville-house-painter.jpeg?1516679347" height="150" width="160" class="bd-placeholder-img square m-3 mb-0">
+                                    </a>
+                                    <div class="card-body">
+                                        <p class="mb-0">
+                                            <i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                                        </p>
+                                        <p class="card-text mb-0">Painter</p>
+                                        <small class="text-muted">Joseph Kim</small><br>
+                                        <small class="text-muted">₱ 600.00</small><br>
+                                        <div class="d-flex" style="float: right;">
+                                            <div class="btn-group mb-0 ms-0" >
+                                                <a href="service_cart.html"><i class="fa-sharp fa-solid fa-cart-shopping ms-2" style="color: #000000;"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="card mb-4 box-shadow">
+                                    <a href="service_detail.html" style="text-decoration: none;">
+                                        <img src="https://www.theashevillepainter.com/uploads/1/1/1/2/111226349/asheville-interior-painters_orig.jpeg" height="150" width="160" class="bd-placeholder-img square m-3 mb-0">
+                                    </a>
+                                    <div class="card-body">
+                                        <p class="mb-0">
+                                            <i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                                        </p>
+                                        <p class="card-text mb-0">Exterior Designer</p>
+                                        <small class="text-muted">John Cruz</small><br>
+                                        <small class="text-muted">₱ 700.00</small><br>
+                                        <div class="d-flex" style="float: right;">
+                                            <div class="btn-group mb-0 ms-0" >
+                                                <a href="service_cart.html"><i class="fa-sharp fa-solid fa-cart-shopping ms-2" style="color: #000000;"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="card mb-4 box-shadow">
+                                    <a href="service_detail.html" style="text-decoration: none;">
+                                        <img src="https://www.thespruce.com/thmb/WGuIdVkCxqJ5aq319OnD3Aa2srg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Layingbrick-GettyImages-514032051-c966ac49469843e285d27c7b7f90dcaa.jpg" height="150" width="160" class="bd-placeholder-img square m-3 mb-0">
+                                    </a>
+                                    <div class="card-body">
+                                        <p class="mb-0">
+                                            <i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                                        </p>
+                                        <p class="card-text mb-0">Masonry</p>
+                                        <small class="text-muted">Peter Reyes</small><br>
+                                        <small class="text-muted">₱ 500.00</small><br>
+                                        <div class="d-flex" style="float: right;">
+                                            <div class="btn-group mb-0 ms-0" >
+                                                <a href="service_cart.html"><i class="fa-sharp fa-solid fa-cart-shopping ms-2" style="color: #000000;"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="card mb-4 box-shadow">
+                                    <a href="service_detail.html" style="text-decoration: none;">
+                                        <img src="https://constructioncareers.org/wp-content/uploads/2017/10/GlazierAndGlassWorker.jpg" height="150" width="160" class="bd-placeholder-img square m-3 mb-0">
+                                    </a>
+                                    <div class="card-body">
+                                        <p class="mb-0">
+                                            <i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                                        </p>
+                                        <p class="card-text mb-0">Glaziers</p>
+                                        <small class="text-muted">John Robis</small><br>
+                                        <small class="text-muted">₱ 550.00</small><br>
+                                        <div class="d-flex" style="float: right;">
+                                            <div class="btn-group mb-0 ms-0" >
+                                                <a href="service_cart.html"><i class="fa-sharp fa-solid fa-cart-shopping ms-2" style="color: #000000;"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="card mb-4 box-shadow">
+                                    <a href="service_detail.html" style="text-decoration: none;">
+                                        <img src="https://www.build-review.com/wp-content/uploads/2022/03/Electrician.jpg" height="150" width="160" class="bd-placeholder-img square m-3 mb-0">
+                                    </a>
+                                    <div class="card-body">
+                                        <p class="mb-0">
+                                            <i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                                        </p>
+                                        <p class="card-text mb-0">Electrician</p>
+                                        <small class="text-muted">Harvey Kim</small><br>
+                                        <small class="text-muted">₱ 600.00</small><br>
+                                        <div class="d-flex" style="float: right;">
+                                            <div class="btn-group mb-0 ms-0" >
+                                                <a href="service_cart.html"><i class="fa-sharp fa-solid fa-cart-shopping ms-2" style="color: #000000;"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- for down column -->
+                            <div class="col-sm-2">
+                                <div class="card mb-4 box-shadow">
+                                    <a href="service_detail.html" style="text-decoration: none;">
+                                        <img src="https://major.com.au/wp-content/uploads/2019/12/Carpenter-on-Roof.jpg" height="150" width="160" class="bd-placeholder-img square m-3 mb-0">
+                                    </a>
+                                    <div class="card-body">
+                                        <p class="mb-0">
+                                            <i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                                        </p>
+                                        <p class="card-text mb-0">Carpenter</p>
+                                        <small class="text-muted">Robin Chua</small><br>
+                                        <small class="text-muted">₱ 700.00</small><br>
+                                        <div class="d-flex" style="float: right;">
+                                            <div class="btn-group mb-0 ms-0" >
+                                                <a href="service_cart.html"><i class="fa-sharp fa-solid fa-cart-shopping ms-2" style="color: #000000;"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="card mb-4 box-shadow">
+                                    <a href="service_detail.html" style="text-decoration: none;">
+                                        <img src="https://absoluteballer.com/wp-content/uploads/2020/08/construction-concept-foreman-officer-inspector-defect-about-engineer-architect-work-home-building-before-complete-project_36650-310.jpg?ezimgfmt=ngcb8/notWebP" height="150" width="160" class="bd-placeholder-img square m-3 mb-0">
+                                    </a>
+                                    <div class="card-body">
+                                        <p class="mb-0">
+                                            <i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                                        </p>
+                                        <p class="card-text mb-0">Foreman</p>
+                                        <small class="text-muted">Andrew Abante</small><br>
+                                        <small class="text-muted">₱ 700.00</small><br>
+                                        <div class="d-flex" style="float: right;">
+                                            <div class="btn-group mb-0 ms-0" >
+                                                <a href="service_cart.html"><i class="fa-sharp fa-solid fa-cart-shopping ms-2" style="color: #000000;"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="card mb-4 box-shadow">
+                                    <a href="service_detail.html" style="text-decoration: none;">
+                                        <img src="https://www.mrhandyman.com/images/blog/flooring-installation.jpg" height="150" width="160" class="bd-placeholder-img square m-3 mb-0">
+                                    </a>
+                                    <div class="card-body">
+                                        <p class="mb-0">
+                                            <i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                                        </p>
+                                        <p class="card-text mb-0">Floor Installer</p>
+                                        <small class="text-muted">boss amo</small><br>
+                                        <small class="text-muted">₱ 500.00</small><br>
+                                        <div class="d-flex" style="float: right;">
+                                            <div class="btn-group mb-0 ms-0" >
+                                                <a href="service_cart.html"><i class="fa-sharp fa-solid fa-cart-shopping ms-2" style="color: #000000;"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="card mb-4 box-shadow">
+                                    <a href="service_detail.html" style="text-decoration: none;">
+                                        <img src="https://byf.org/wp-content/uploads/2022/05/20110125-pouringpanels02-470x360-1.png" height="150" width="160" class="bd-placeholder-img square m-3 mb-0">
+                                    </a>
+                                    <div class="card-body">
+                                        <p class="mb-0">
+                                            <i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                                        </p>
+                                        <p class="card-text mb-0">Concrete Finisher</p>
+                                        <small class="text-muted">Wilbert Reyes</small><br>
+                                        <small class="text-muted">₱ 500.00</small><br>
+                                        <div class="d-flex" style="float: right;">
+                                            <div class="btn-group mb-0 ms-0" >
+                                                <a href="service_cart.html"><i class="fa-sharp fa-solid fa-cart-shopping ms-2" style="color: #000000;"></i></a>                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="card mb-4 box-shadow">
+                                    <a href="service_detail.html" style="text-decoration: none;">
+                                        <img src="https://gulfcoastcc.org/wp-content/uploads/2015/01/pipefitters.jpg" height="150" width="160" class="bd-placeholder-img square m-3 mb-0">
+                                    </a>
+                                    <div class="card-body">
+                                        <p class="mb-0">
+                                            <i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                                        </p>
+                                        <p class="card-text mb-0">Pipefitters</p>
+                                        <small class="text-muted">David Archua</small><br>
+                                        <small class="text-muted">₱ 700.00</small><br>
+                                        <div class="d-flex" style="float: right;">
+                                            <div class="btn-group mb-0 ms-0" >
+                                                <a href="service_cart.html"><i class="fa-sharp fa-solid fa-cart-shopping ms-2" style="color: #000000;"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="card mb-4 box-shadow">
+                                    <a href="service_detail.html" style="text-decoration: none;">
+                                        <img src="https://www.constructionexec.com/assets/site_18/images/article/070918091906.jpg?width=1280" height="150" width="160" class="bd-placeholder-img square m-3 mb-0">
+                                    </a>
+                                    <div class="card-body">
+                                        <p class="mb-0">
+                                            <i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i><i class="fa-solid fa-star" style="color: #ffea00;"></i>
+                                        </p>
+                                        <p class="card-text mb-0">Planner</p>
+                                        <small class="text-muted">boss amo</small><br>
+                                        <small class="text-muted">₱ 700.00</small><br>
+                                        <div class="d-flex" style="float: right;">
+                                            <div class="btn-group mb-0 ms-0" >
+                                                <a href="service_cart.html"><i class="fa-sharp fa-solid fa-cart-shopping ms-2" style="color: #000000;"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>        
+            </main>
+        </div>
+        <footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2023 - AvengerSquad_HardwareNI - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            </div>
+        </footer>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/site.js" asp-append-version="true"></script>
+        <script src="https://kit.fontawesome.com/b931b08b2b.js" crossorigin="anonymous"></script>
+    </body>    
+</html>    

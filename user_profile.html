@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>User Profile</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">   
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+        <!-- Custom styles for this template -->
+        <link rel="stylesheet" href="css/carousel.css">
+        <link rel="stylesheet" href="css/site.css">
+        <link rel="stylesheet" href="css/user_profile.css">
+        
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="home.html">Hardware N.I.</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                            <a href="home.html" class="nav-link active" style="padding-left: 50px;padding-right: 50px;">
+                                <i class="fa-sharp fa-solid fa-house fa-sm" style="color: #000000;">&nbsp&nbsp</i>Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-left: 50px;padding-right: 50px;">
+                                    <i class="fa-sharp fa-solid fa-cart-shopping" style="color: #000000;">&nbsp&nbsp</i>Cart
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a href="product_cart.html" class="dropdown-item">Products</a></li>
+                                    <li><a href="service_cart.html"class="dropdown-item">Services</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-left: 50px;padding-right: 50px;">
+                                    Categories
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a href="product.html" class="dropdown-item">Products</a></li>
+                                    <li><a href="service.html"class="dropdown-item">Services</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="float: right;">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit"><i class="fa-sharp fa-solid fa-magnifying-glass fa-sm" style="color: #000000;"></i></button>
+                            </form> 
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-left: 50px;padding-right: 50px;">
+                                    <i class="fa-sharp fa-solid fa-ellipsis-vertical" style="color: #000000;"></i>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="seller_account.html">Account Dashboard</a></li>
+                                    <li><a class="dropdown-item" href="favorite.html">Favorites</a></li>
+                                    <li><a class="dropdown-item" href="user_profile.html">Profile Setting</a></li>
+                                    <li><a class="dropdown-item" href="index.html">Logout</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+        <div class="container">
+            <div class="main-body">
+                <div class="row gutters-sm">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5>User's Account</h5>
+                                <div class="d-flex flex-column align-items-center text-center">
+                                    <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Admin" class="rounded-circle" width="150">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-auto rounded-top bg-secondary">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                    <h6 class="mb-auto text-white">Username</h6>
+                                </div>
+                                <div class="col-sm-6 ml-auto text-white">
+                                    Boss Amo
+                                    &nbsp;
+                                    <a href ="">
+                                        <i class="bi bi-pen text-white"></i>
+                                    </a> 
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <h6 class="mb-auto text-white">Phone Number</h6>
+                                </div>
+                                <div class="col-sm-6 ml-auto text-white">
+                                    09123456789
+                                    &nbsp;
+                                    <a href ="">
+                                        <i class="bi bi-pen text-white"></i>
+                                    </a> 
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <h6 class="mb-auto text-white">Password</h6>
+                                </div>
+                                <div class="col-sm-6 ml-auto text-white">
+                                    *************
+                                    &nbsp;
+                                    <a href ="">
+                                        <i class="bi bi-pen text-white"></i>
+                                    </a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col-md-8">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <h6 class="mb-auto">First Name</h6>
+                                </div>
+                                <div class="col-sm-6 ml-auto text-secondary">
+                                    Boss
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <h6 class="mb-auto">Last Name</h6>
+                                </div>
+                                <div class="col-sm-6 ml-auto text-secondary">
+                                    Amo
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <h6 class="mb-0">Date of Birth</h6>
+                                </div>
+                                <div class="col-sm-6 ml-auto text-secondary">
+                                    February 30, 2023
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <h6 class="mb-0">Gender</h6>
+                                </div>
+                                <div class="col-sm-6 ml-auto text-secondary">
+                                    Female
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <h6 class="mb-0">Address</h6>
+                                </div>
+                                <div class="col-sm-6 ml-auto text-secondary">
+                                    123, Unidos, Camotes
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <h6 class="mb-0">Phone Number</h6>
+                                </div>
+                                <div class="col-sm-6 ml-auto text-secondary">
+                                    09123456789
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <h6 class="mb-0">Type</h6>
+                                </div>
+                                <div class="col-sm-6 ml-auto text-secondary">
+                                    Customer
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="btn-toolbar row">
+                                <div class="col-sm-6 ml-auto">
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-pen"></i> Edit</button>
+                                    &nbsp;
+                                    &nbsp;
+                                    &nbsp;
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-save"></i> Save</button>
+                                </div>                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <script src="js/jquery.min.js"></script>
+            <script src="js/bootstrap.bundle.min.js"></script>
+            <script src="js/site.js" asp-append-version="true"></script>
+            <script src="https://kit.fontawesome.com/b931b08b2b.js" crossorigin="anonymous"></script>
+        </footer>
+    </body>
+</html>
